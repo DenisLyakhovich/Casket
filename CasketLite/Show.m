@@ -1,15 +1,17 @@
 //
-//  ViewController.h
+//  Show.m
 //  CasketLite
 //
 //  Created by Denis Lyakhovich on 03.09.17.
 //  Copyright © 2017 Denis Lyakhovich. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Show.h"
 
-@interface ViewController : UIViewController
+@implementation Show
 
+@dynamic title;
+@dynamic descript;
+@dynamic firstRun;
 
 @end
-

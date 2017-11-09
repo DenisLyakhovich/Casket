@@ -3,18 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		927EBF821F5C741900502D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBF811F5C741900502D9B /* main.m */; };
-		927EBF851F5C741900502D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBF841F5C741900502D9B /* AppDelegate.m */; };
-		927EBF881F5C741900502D9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBF871F5C741900502D9B /* ViewController.m */; };
-		927EBF8B1F5C741900502D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927EBF891F5C741900502D9B /* Main.storyboard */; };
 		927EBF8D1F5C741900502D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927EBF8C1F5C741900502D9B /* Assets.xcassets */; };
 		927EBF901F5C741900502D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927EBF8E1F5C741900502D9B /* LaunchScreen.storyboard */; };
 		927EBF9B1F5C741900502D9B /* CasketLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBF9A1F5C741900502D9B /* CasketLiteTests.m */; };
 		927EBFA61F5C741900502D9B /* CasketLiteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFA51F5C741900502D9B /* CasketLiteUITests.m */; };
+		927EBFB51F5C749900502D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB41F5C749900502D9B /* AppDelegate.m */; };
+		927EBFB81F5C74AF00502D9B /* CasketLiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB71F5C74AF00502D9B /* CasketLiteTableViewController.m */; };
+		927EBFBB1F5C74BF00502D9B /* PutInTheCasketTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFBA1F5C74BF00502D9B /* PutInTheCasketTableViewController.m */; };
+		927EBFBD1F5C74CD00502D9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927EBFBC1F5C74CD00502D9B /* Main.storyboard */; };
+		927EBFBF1F5C74D900502D9B /* CasketLite.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFBE1F5C74D900502D9B /* CasketLite.xcdatamodel */; };
+		927EBFC21F5C74EC00502D9B /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFC11F5C74EC00502D9B /* Show.m */; };
+		927EBFCC1F5C785000502D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB41F5C749900502D9B /* AppDelegate.m */; };
+		927EBFCD1F5C785100502D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB41F5C749900502D9B /* AppDelegate.m */; };
+		927EBFCE1F5C785600502D9B /* CasketLiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB71F5C74AF00502D9B /* CasketLiteTableViewController.m */; };
+		927EBFCF1F5C785600502D9B /* CasketLiteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFB71F5C74AF00502D9B /* CasketLiteTableViewController.m */; };
+		927EBFD01F5C785C00502D9B /* PutInTheCasketTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFBA1F5C74BF00502D9B /* PutInTheCasketTableViewController.m */; };
+		927EBFD11F5C785C00502D9B /* PutInTheCasketTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFBA1F5C74BF00502D9B /* PutInTheCasketTableViewController.m */; };
+		927EBFD21F5C786100502D9B /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFC11F5C74EC00502D9B /* Show.m */; };
+		927EBFD31F5C786100502D9B /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 927EBFC11F5C74EC00502D9B /* Show.m */; };
+		92D90C2F1F65C65B0030C693 /* iconCasketLite.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C2E1F65C65B0030C693 /* iconCasketLite.png */; };
+		92D90C391F65CB380030C693 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C301F65CB380030C693 /* Icon@2x.png */; };
+		92D90C3A1F65CB380030C693 /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C311F65CB380030C693 /* Icon@3x.png */; };
+		92D90C3B1F65CB380030C693 /* IconSmall-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C321F65CB380030C693 /* IconSmall-20@2x.png */; };
+		92D90C3C1F65CB380030C693 /* IconSmall-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C331F65CB380030C693 /* IconSmall-20@3x.png */; };
+		92D90C3D1F65CB380030C693 /* IconSmall-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C341F65CB380030C693 /* IconSmall-40@2x.png */; };
+		92D90C3E1F65CB380030C693 /* IconSmall-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C351F65CB380030C693 /* IconSmall-40@3x.png */; };
+		92D90C3F1F65CB380030C693 /* IconSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C361F65CB380030C693 /* IconSmall@2x.png */; };
+		92D90C401F65CB380030C693 /* IconSmall@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C371F65CB380030C693 /* IconSmall@3x.png */; };
+		92D90C411F65CB380030C693 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 92D90C381F65CB380030C693 /* iTunesArtwork@2x */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +58,6 @@
 /* Begin PBXFileReference section */
 		927EBF7D1F5C741900502D9B /* CasketLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasketLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927EBF811F5C741900502D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		927EBF831F5C741900502D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		927EBF841F5C741900502D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		927EBF861F5C741900502D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		927EBF871F5C741900502D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		927EBF8A1F5C741900502D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		927EBF8C1F5C741900502D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927EBF8F1F5C741900502D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		927EBF911F5C741900502D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +67,26 @@
 		927EBFA11F5C741900502D9B /* CasketLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasketLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927EBFA51F5C741900502D9B /* CasketLiteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasketLiteUITests.m; sourceTree = "<group>"; };
 		927EBFA71F5C741900502D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927EBFB31F5C748D00502D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		927EBFB41F5C749900502D9B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		927EBFB61F5C74A800502D9B /* CasketLiteTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CasketLiteTableViewController.h; sourceTree = "<group>"; };
+		927EBFB71F5C74AF00502D9B /* CasketLiteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasketLiteTableViewController.m; sourceTree = "<group>"; };
+		927EBFB91F5C74B400502D9B /* PutInTheCasketTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PutInTheCasketTableViewController.h; sourceTree = "<group>"; };
+		927EBFBA1F5C74BF00502D9B /* PutInTheCasketTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutInTheCasketTableViewController.m; sourceTree = "<group>"; };
+		927EBFBC1F5C74CD00502D9B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		927EBFBE1F5C74D900502D9B /* CasketLite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CasketLite.xcdatamodel; sourceTree = "<group>"; };
+		927EBFC01F5C74E600502D9B /* Show.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
+		927EBFC11F5C74EC00502D9B /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
+		92D90C2E1F65C65B0030C693 /* iconCasketLite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconCasketLite.png; sourceTree = "<group>"; };
+		92D90C301F65CB380030C693 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		92D90C311F65CB380030C693 /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		92D90C321F65CB380030C693 /* IconSmall-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-20@2x.png"; sourceTree = "<group>"; };
+		92D90C331F65CB380030C693 /* IconSmall-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-20@3x.png"; sourceTree = "<group>"; };
+		92D90C341F65CB380030C693 /* IconSmall-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-40@2x.png"; sourceTree = "<group>"; };
+		92D90C351F65CB380030C693 /* IconSmall-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall-40@3x.png"; sourceTree = "<group>"; };
+		92D90C361F65CB380030C693 /* IconSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall@2x.png"; sourceTree = "<group>"; };
+		92D90C371F65CB380030C693 /* IconSmall@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSmall@3x.png"; sourceTree = "<group>"; };
+		92D90C381F65CB380030C693 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +114,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		924E51A61F5C796800F4A806 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				927EBFBC1F5C74CD00502D9B /* Main.storyboard */,
+				927EBF8E1F5C741900502D9B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		924E51A71F5C797400F4A806 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				927EBFBE1F5C74D900502D9B /* CasketLite.xcdatamodel */,
+				927EBFC01F5C74E600502D9B /* Show.h */,
+				927EBFC11F5C74EC00502D9B /* Show.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		924E51A81F5C797C00F4A806 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				927EBFB61F5C74A800502D9B /* CasketLiteTableViewController.h */,
+				927EBFB71F5C74AF00502D9B /* CasketLiteTableViewController.m */,
+				927EBFB91F5C74B400502D9B /* PutInTheCasketTableViewController.h */,
+				927EBFBA1F5C74BF00502D9B /* PutInTheCasketTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		927EBF741F5C741900502D9B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +151,7 @@
 				927EBF991F5C741900502D9B /* CasketLiteTests */,
 				927EBFA41F5C741900502D9B /* CasketLiteUITests */,
 				927EBF7E1F5C741900502D9B /* Products */,
+				927EBFC31F5C76FA00502D9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +168,11 @@
 		927EBF7F1F5C741900502D9B /* CasketLite */ = {
 			isa = PBXGroup;
 			children = (
-				927EBF831F5C741900502D9B /* AppDelegate.h */,
-				927EBF841F5C741900502D9B /* AppDelegate.m */,
-				927EBF861F5C741900502D9B /* ViewController.h */,
-				927EBF871F5C741900502D9B /* ViewController.m */,
-				927EBF891F5C741900502D9B /* Main.storyboard */,
-				927EBF8C1F5C741900502D9B /* Assets.xcassets */,
-				927EBF8E1F5C741900502D9B /* LaunchScreen.storyboard */,
-				927EBF911F5C741900502D9B /* Info.plist */,
+				924E51A71F5C797400F4A806 /* Model */,
+				924E51A61F5C796800F4A806 /* View */,
+				924E51A81F5C797C00F4A806 /* Controller */,
+				927EBFB31F5C748D00502D9B /* AppDelegate.h */,
+				927EBFB41F5C749900502D9B /* AppDelegate.m */,
 				927EBF801F5C741900502D9B /* Supporting Files */,
 			);
 			path = CasketLite;
@@ -117,6 +181,18 @@
 		927EBF801F5C741900502D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				927EBF8C1F5C741900502D9B /* Assets.xcassets */,
+				92D90C301F65CB380030C693 /* Icon@2x.png */,
+				92D90C311F65CB380030C693 /* Icon@3x.png */,
+				92D90C321F65CB380030C693 /* IconSmall-20@2x.png */,
+				92D90C331F65CB380030C693 /* IconSmall-20@3x.png */,
+				92D90C341F65CB380030C693 /* IconSmall-40@2x.png */,
+				92D90C351F65CB380030C693 /* IconSmall-40@3x.png */,
+				92D90C361F65CB380030C693 /* IconSmall@2x.png */,
+				92D90C371F65CB380030C693 /* IconSmall@3x.png */,
+				92D90C381F65CB380030C693 /* iTunesArtwork@2x */,
+				92D90C2E1F65C65B0030C693 /* iconCasketLite.png */,
+				927EBF911F5C741900502D9B /* Info.plist */,
 				927EBF811F5C741900502D9B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +214,13 @@
 				927EBFA71F5C741900502D9B /* Info.plist */,
 			);
 			path = CasketLiteUITests;
+			sourceTree = "<group>";
+		};
+		927EBFC31F5C76FA00502D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +290,6 @@
 				TargetAttributes = {
 					927EBF7C1F5C741900502D9B = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 6YJC6YC9K4;
 						ProvisioningStyle = Automatic;
 					};
 					927EBF951F5C741900502D9B = {
@@ -225,7 +307,7 @@
 				};
 			};
 			buildConfigurationList = 927EBF781F5C741900502D9B /* Build configuration list for PBXProject "CasketLite" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -249,9 +331,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927EBFBD1F5C74CD00502D9B /* Main.storyboard in Resources */,
+				92D90C3F1F65CB380030C693 /* IconSmall@2x.png in Resources */,
+				92D90C411F65CB380030C693 /* iTunesArtwork@2x in Resources */,
 				927EBF901F5C741900502D9B /* LaunchScreen.storyboard in Resources */,
+				92D90C3C1F65CB380030C693 /* IconSmall-20@3x.png in Resources */,
+				92D90C401F65CB380030C693 /* IconSmall@3x.png in Resources */,
 				927EBF8D1F5C741900502D9B /* Assets.xcassets in Resources */,
-				927EBF8B1F5C741900502D9B /* Main.storyboard in Resources */,
+				92D90C2F1F65C65B0030C693 /* iconCasketLite.png in Resources */,
+				92D90C3B1F65CB380030C693 /* IconSmall-20@2x.png in Resources */,
+				92D90C3A1F65CB380030C693 /* Icon@3x.png in Resources */,
+				92D90C391F65CB380030C693 /* Icon@2x.png in Resources */,
+				92D90C3E1F65CB380030C693 /* IconSmall-40@3x.png in Resources */,
+				92D90C3D1F65CB380030C693 /* IconSmall-40@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927EBF881F5C741900502D9B /* ViewController.m in Sources */,
-				927EBF851F5C741900502D9B /* AppDelegate.m in Sources */,
+				927EBFB81F5C74AF00502D9B /* CasketLiteTableViewController.m in Sources */,
+				927EBFBB1F5C74BF00502D9B /* PutInTheCasketTableViewController.m in Sources */,
+				927EBFBF1F5C74D900502D9B /* CasketLite.xcdatamodel in Sources */,
+				927EBFB51F5C749900502D9B /* AppDelegate.m in Sources */,
+				927EBFC21F5C74EC00502D9B /* Show.m in Sources */,
 				927EBF821F5C741900502D9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927EBFD21F5C786100502D9B /* Show.m in Sources */,
+				927EBFCE1F5C785600502D9B /* CasketLiteTableViewController.m in Sources */,
+				927EBFD01F5C785C00502D9B /* PutInTheCasketTableViewController.m in Sources */,
+				927EBFCC1F5C785000502D9B /* AppDelegate.m in Sources */,
 				927EBF9B1F5C741900502D9B /* CasketLiteTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927EBFD31F5C786100502D9B /* Show.m in Sources */,
+				927EBFCF1F5C785600502D9B /* CasketLiteTableViewController.m in Sources */,
+				927EBFD11F5C785C00502D9B /* PutInTheCasketTableViewController.m in Sources */,
+				927EBFCD1F5C785100502D9B /* AppDelegate.m in Sources */,
 				927EBFA61F5C741900502D9B /* CasketLiteUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		927EBF891F5C741900502D9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				927EBF8A1F5C741900502D9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		927EBF8E1F5C741900502D9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -374,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +511,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -429,8 +524,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6YJC6YC9K4;
 				INFOPLIST_FILE = CasketLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Lyakhovich.CasketLite";
+				PRODUCT_BUNDLE_IDENTIFIER = DenisLyakhovich.CasketLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,8 +537,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6YJC6YC9K4;
 				INFOPLIST_FILE = CasketLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Denis-Lyakhovich.CasketLite";
+				PRODUCT_BUNDLE_IDENTIFIER = DenisLyakhovich.CasketLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +613,7 @@
 				927EBFAC1F5C741900502D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927EBFAD1F5C741900502D9B /* Build configuration list for PBXNativeTarget "CasketLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +622,7 @@
 				927EBFAF1F5C741900502D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		927EBFB01F5C741900502D9B /* Build configuration list for PBXNativeTarget "CasketLiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +631,7 @@
 				927EBFB21F5C741900502D9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
